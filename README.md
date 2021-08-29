@@ -1,2 +1,2 @@
 # practical-bydenish
-amazing website
+amazing website made by denish_kunjadiya 
