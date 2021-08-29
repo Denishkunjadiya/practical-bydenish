@@ -1,0 +1,114 @@
+.j{
+	background-color:black;
+}
+.p3{
+	width:1000px;
+	height:245px;
+	transition:0.2s;
+}
+.p1 span
+{
+	position:absolute;
+	display:block;
+}
+.p1 span:nth-child(1)
+{
+	top:-100%;
+	right:0;
+	width:4545px;
+	height:100%;
+	background: linear-gradient(180deg,transparent,#fffc00);
+}
+.p1:hover span:nth-child(1)
+{
+	top:100%;
+	transition:.5s;
+}
+
+.p1 span:nth-child(2)
+{
+	bottom:-100%;
+	left:0;
+	width:4454px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,#fffc00);
+}
+.p1:hover span:nth-child(2)
+{
+	bottom:100%;
+	transition:.5s;
+	transition-delay:0.4s;
+}
+.p2 span
+{
+	position:absolute;
+	display:block;
+}
+.p2 span:nth-child(1)
+{
+	top:0;
+	left:-100%;
+	width:100%;
+	height:4545px;
+	background: linear-gradient(90deg,transparent,#2196f3);
+	}
+.p2:hover span:nth-child(1)
+{
+	left:100%;
+	transition:.5s;
+}
+.p2 span:nth-child(2)
+{
+	bottom:0;
+	right:-100%;
+	width:100%;
+	height:4545px;
+	background: linear-gradient(270deg,transparent,#2196f3);
+}
+.p2:hover span:nth-child(2)
+{
+	right:100%;
+	transition:.5s;
+	transition-delay:0.4s;
+}
+
+.p3 span
+{
+	position:absolute;
+	display:block;
+}
+.p3 span:nth-child(1)
+{
+	top:-100%;
+	right:0;
+	width:4545px;
+	height:100%;
+	background: linear-gradient(180deg,transparent,#0aff16);
+}
+.p3:hover span:nth-child(1)
+{
+	top:100%;
+	transition:.5s;
+}
+
+.p3 span:nth-child(2)
+{
+	bottom:-100%;
+	left:0;
+	width:4454px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,#0aff16);
+}
+.p3:hover span:nth-child(2)
+{
+	bottom:100%;
+	transition:.5s;
+	transition-delay:0.4s;
+}
+ul
+{
+	font-size:25px;
+	transition:0.02s;
+}
+
+	

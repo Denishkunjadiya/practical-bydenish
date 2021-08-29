@@ -1,0 +1,264 @@
+.lasarpati
+{
+	background-color:black;
+}
+.photo1
+{
+	width:150px;
+	height:245px;
+	border-radius:40px;
+}
+.photo1 span
+{
+	position:absolute;
+	display:block;
+}
+.photo1 span:nth-child(1)
+{
+	top:-100%;
+	right:0;
+	width:4545px;
+	height:100%;
+	background: linear-gradient(180deg,transparent,#fffc00);
+}
+.photo1:hover span:nth-child(1)
+{
+	top:100%;
+	transition:.5s;
+}
+
+.photo1 span:nth-child(2)
+{
+	bottom:-100%;
+	left:0;
+	width:4454px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,#fffc00);
+}
+.photo1:hover span:nth-child(2)
+{
+	bottom:100%;
+	transition:.5s;
+	transition-delay:0.4s;
+}
+
+
+.photo2
+{
+	width:150px;
+	height:245px;
+	border-radius:40px;
+}
+.photo2 span
+{
+	position:absolute;
+	display:block;
+}
+.photo2 span:nth-child(1)
+{
+	top:0;
+	left:-100%;
+	width:100%;
+	height:4545px;
+	background: linear-gradient(90deg,transparent,#2196f3);
+	}
+.photo2:hover span:nth-child(1)
+{
+	left:100%;
+	transition:.5s;
+}
+.photo2 span:nth-child(2)
+{
+	bottom:0;
+	right:-100%;
+	width:100%;
+	height:4545px;
+	background: linear-gradient(270deg,transparent,#2196f3);
+}
+.photo2:hover span:nth-child(2)
+{
+	right:100%;
+	transition:.5s;
+	transition-delay:0.4s;
+}
+
+
+
+.photo3
+{
+	width:1000px;
+	height:245px;
+	border-radius:40px;
+}
+.photo3 span
+{
+	position:absolute;
+	display:block;
+}
+.photo3 span:nth-child(1)
+{
+	top:-100%;
+	right:0;
+	width:4545px;
+	height:100%;
+	background: linear-gradient(180deg,transparent,#fffc00);
+}
+.photo3:hover span:nth-child(1)
+{
+	top:100%;
+	transition:.5s;
+}
+
+.photo3 span:nth-child(2)
+{
+	bottom:-100%;
+	left:0;
+	width:4454px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,#fffc00);
+}
+.photo3:hover span:nth-child(2)
+{
+	bottom:100%;
+	transition:.5s;
+	transition-delay:0.4s;
+}
+	
+.neone
+{
+	position:relative;
+	display:inline-block;
+	padding:10px 50px;
+	color:#2196f3;
+	text-decoration:none;
+	overflow:hidden;
+	transition:0.2s;
+}
+.neone:hover
+{
+	color:#2196f3;
+	border-radius:700000px;
+	background:#031321;
+	transition-delay:1s;
+}
+.neone span
+{
+	position:absolute;
+	display:block;
+}
+.neone span:nth-child(1)
+{
+	top:0;
+	left:-100%;
+	width:100%;
+	height:4px;
+	background: linear-gradient(90deg,transparent,#2196f3);
+}
+.neone:hover span:nth-child(1)
+{
+	left:100%;
+	transition:1s;
+}
+
+.neone span:nth-child(3)
+{
+	bottom:0;
+	right:-100%;
+	width:100%;
+	height:4px;
+	background: linear-gradient(270deg,transparent,#2196f3);
+}
+.neone:hover span:nth-child(3)
+{
+	right:100%;
+	transition:1s;
+	transition-delay:0.5s;
+}
+
+.neone span:nth-child(2)
+{
+	top:-100%;
+	right:0;
+	width:4px;
+	height:100%;
+	background: linear-gradient(180deg,transparent,#2196f3);
+}
+.neone:hover span:nth-child(2)
+{
+	top:100%;
+	transition:1s;
+	transition-delay:0.25s;
+}
+
+.neone span:nth-child(4)
+{
+	bottom:-100%;
+	left:0;
+	width:4px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,#2196f3);
+}
+.neone:hover span:nth-child(4)
+{
+	bottom:100%;
+	transition:1s;
+	transition-delay:0.75s;
+}
+
+.ul
+{
+	font-size:25px;
+	transition:0.20s;
+}
+
+
+.link
+{
+	position:relative;
+	display:inline-block;
+	padding:10px 50px;
+	color:blue;
+	text-decoration:none;
+	overflow:hidden;
+	transition:0.2s;
+	border-radius:70px;
+}
+.link:hover
+{
+	color:#2196f3;
+	border-radius:700000px;
+	background:#031321;
+	transition-delay:.65s;
+}
+.link span
+{
+	position:absolute;
+	display:block;
+}
+.link span:nth-child(1)
+{
+	top:-100%;
+	left:0;
+	width:1274px;
+	height:100%;
+	background: linear-gradient(180deg,transparent,#2196f3);
+}
+.link:hover span:nth-child(1)
+{
+	top:100%;
+	transition:.45s;
+}
+.link span:nth-child(2)
+{
+	top:100%;
+	right:0;
+	width:1274px;
+	height:100%;
+	background: linear-gradient(360deg,transparent,#2196f3);
+}
+.link:hover span:nth-child(2)
+{
+	top:-100%;
+	transition:.45s;
+	transition-delay:0.45s;
+}

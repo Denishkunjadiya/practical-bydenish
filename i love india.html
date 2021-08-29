@@ -1,0 +1,98 @@
+<style>
+	body{
+		background-color: #000000;
+		animation: bg 5s infinite;
+	}
+	h1{
+		font-size: 50px;
+		padding: 10px;
+		text-align: center;
+		color: orange;
+		text-shadow: 15px 10px 15px green;
+		font-family: Bookman Old Style;
+	}
+	h2{
+		font-size: 50px;
+		padding: 10px;
+		text-align: center;
+		color: white;
+		text-shadow: 15px 10px 10px blue;
+		font-family: Bookman Old Style;
+	}
+	h3{
+		font-size: 50px;
+		padding: 10px;
+		text-align: center;
+		color: green;
+		text-shadow: 15px 10px 20px orange;
+		font-family: Bookman Old Style;
+	}
+	h4{
+		font-size: 3em;
+		color: #e5ff00;
+		animation: text 5s infinite;
+	}
+	@keyframes text 
+	{
+		
+		0%
+		{	
+			text-shadow: 2px 2px 3px red;
+			font-style: italic;
+		}
+		50%
+		{	
+			color: black;
+		}
+		100%
+		{	
+			text-shadow: 2px 2px 3px red;
+			font-style: italic;
+		}
+	}
+	#hideme {
+		background: linear-gradient(to bottom right, orange, white, green);
+		border-radius: 10px;
+		padding: 15px;
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+		animation: hide 5s forwards;
+	}
+	@keyframes hide{
+		0%	{opacity: 1;}
+		100%{opacity: 0;}
+	}
+	.move
+	{
+		animation: move 5s infinite;
+		position: relative;
+	}
+	@keyframes move{
+		0%{top: 0px;}
+		50%{top: 50px; color: #15016d; text-shadow: 0 0 0 ;}
+		100%{top: 0px;}
+	}
+	@keyframes bg
+	{
+		0%
+		{	background: #000000;	}
+		50%
+		{	background: linear-gradient( orange,white,green);	}
+		100%
+		{	background: #000000;	}
+	}
+</style>
+
+<p id="hideme">▁▂▄⍟☆⍣ Independence Day ⍣☆⍟▄▂▁</p>
+
+<h1 class="move">Happy</h1>
+<h2 class="move">Independence</h2>
+<h3 class="move">Day</h3>
+
+<marquee behavior="alternate" >
+	<h4>Date : 15 Aug,2021 Sunday</h4>
+</marquee>
+<marquee direction="right">
+	<h4>Dising and devloper by:Denish kunjadiya</h4>
+</marquee>
